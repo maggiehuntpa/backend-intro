@@ -22,7 +22,7 @@ You will find here two folders, one for each exercise:
 Flask is a framework for developing web applications using a Python backend, linking your Python code with your front-end files. Read about it [here](https://flask.palletsprojects.com/en/2.3.x/).
 
 Install it on your computer using pip (unless using [Cloudshell](https://cloud.google.com/shell) )
-`pip install flask`
+`pip install Flask`
 
 Import it into your code like so:
 `from flask import Flask, request, render_template`

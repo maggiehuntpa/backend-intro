@@ -1,0 +1,27 @@
+<!DOCTYPE html> <!-- defines it as an html page -->
+<html>
+    <head>
+        <!-- metadata -->
+        <title>Flask App Exercise</title>
+        <meta charset="UTF-8">
+        <!-- your stylesheet link -->
+        <link rel="stylesheet" href="../static/css/stylesheet.css">
+    </head>
+    <body>
+        <!-- build your form here -->
+         <form action="/calc" method="POST">
+            <!-- calls the url to trigger the python function -->
+            <h1>Calculator</h1>
+            <!-- ensure all inputs have a 'name', not just an id -->
+            <input type="text" placeholder="0" id="num1" name="num1" required>
+            +
+            <input type="text" placeholder="0" id="num2" name="num2" required>
+            <button>=</button>
+         </form>
+
+         <!-- your results will appear here -->
+          <p id="result" name="result">{{value_to_use}}</p>
+    </body>
+    <!-- your javascript file linked here -->
+    <script src="../static/js/script.js"></script>
+</html>

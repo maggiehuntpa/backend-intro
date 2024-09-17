@@ -2,7 +2,7 @@
 
 Hello!
 
-Welcome to the exercises for our Back-End ProgrammingCrash-Course.
+Welcome to the exercises for our Back-End Programming Crash-Course.
 
 You will find here two folders, one for each exercise:
 

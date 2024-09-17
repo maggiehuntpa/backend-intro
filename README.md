@@ -41,6 +41,12 @@ Ensure :
 - Each element (e.g. `‘num1’`) has a name as well as an id (e.g. name=”num1”)
 - The `‘results’` box uses [Jinja2](https://jinja.palletsprojects.com/en/3.1.x/api/#basics) notation - double curly brackets `{{ }}` 
 
+Running your Flask App:
+- Run your Flask app from the terminal by going into the directory and running the following command:
+    `python app.py`
+- Click the hyperlink!
+- Use `ctrl+c` to end the app running.
+
 Next, have a play around with different mathematical operations. Explore what you you do with strings vs integers. How many fields can you add to the form?
 
 ### 2. API Call
@@ -49,12 +55,29 @@ Convert the amount from one currency to another!
 
 Every API call must include a ‘request body’ (the information sent when the API is contacted, so it knows what to return) and a ‘response body’ (the information received in response to the request).
 
-Write some python code which converts some currency using [this API](https://rapidapi.com/natkapral/api/currency-converter5/)
+Write some python code which converts some currency!
 
-Have a play with extracting what you get as a response and returning it as a result!
+Steps:
+- Sign up to use [RapidApi] (https://rapidapi.com/)
+- Read the documentation for using [this API](https://rapidapi.com/natkapral/api/currency-converter5/)
+- Ensure you note your API key = and remember, DO NOT share it online anywhere, or commit it to github! You can find it ocne you have signed up, [here](https://rapidapi.com/natkapral/api/currency-converter5/playground/).
+- Look at the code snippet in this repository, or browse the different [code snippets](https://rapidapi.com/natkapral/api/currency-converter5/playground/apiendpoint_b0d109c2-e479-4f70-be68-ab4dbe08cfcf) for other back-end languages (e.g. Java)
+- You will need to add this to the top of your Python code:
+    ```
+    import requests
+    import json
+    ```
+- Have a play with extracting what you get as a response and returning it as a result!
 
-You will need to sign up for the API first, and add this to the top of your code:
-```
-import requests
-import json
-```
+Tasks:
+- Make it run!
+- Practice changing the `input()` message using [string formatting](https://www.w3schools.com/python/ref_string_format.asp).
+- See if you can use `input()` to request the kinds of currency the user is onverting.
+- Have a play with adding other calculations and messages.
+- HAve a go at formatting the result - e.g. so you don't get the entire JSON, just the number and currency, or a sentence containing the message!
+
+
+Running your Python programme:
+- Run it from the terminal by going into the directory and running the following command:
+    `python apicall.py`
+- Use `ctrl+c` to end it running.

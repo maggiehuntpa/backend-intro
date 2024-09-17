@@ -33,7 +33,7 @@ Your directories should be structured as follows:
     - images/
     - js/
 - templates/
-    - Index.html
+    - index.html
 
 Ensure :
 - Your html includes a form `<form>` using `method=”POST”` - you can borrow elements from [Bootstrap](https://getbootstrap.com/docs/4.0/components/forms/)

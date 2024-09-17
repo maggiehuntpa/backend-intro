@@ -26,7 +26,7 @@ Install it on your computer using pip (unless using [Cloudshell](https://cloud.g
 Import it into your code like so:
 `from flask import Flask, request, render_template`
 
-Ensure your directories are structured as follows:
+Your directories should be structured as follows:
 - app.py
 - static/
     - css/

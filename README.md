@@ -2,7 +2,7 @@
 
 Hello!
 
-Welcome to the exercises for our Back-End Programming Crash-Course.
+Welcome to the exercises for our Back-End Programming Crash-Course. These are the two Python exercises to accompany [these slides](https://docs.google.com/presentation/d/1_rxOPxl4PAXPJmTotoqev6pISNESj8-l60yvAa2kCkE/edit?usp=sharing).
 
 You will find here two folders, one for each exercise:
 

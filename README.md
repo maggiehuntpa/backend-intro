@@ -41,6 +41,8 @@ Ensure :
 - Each element (e.g. `‘num1’`) has a name as well as an id (e.g. name=”num1”)
 - The `‘results’` box uses [Jinja2](https://jinja.palletsprojects.com/en/3.1.x/api/#basics) notation - double curly brackets `{{ }}` 
 
+Next, have a play around with different mathematical operations. Explore what you you do with strings vs integers. How many fields can you add to the form?
+
 ### 2. API Call
 
 Convert the amount from one currency to another!

@@ -30,9 +30,9 @@ Import it into your code like so:
 Your directories should be structured as follows:
 - app.py
 - static/
-    - css/ > this folder is for stylesheets (optional)
-    - images/  > this folder is for images (optional)
-    - js/  > this folder is for javascript scripts (optional)
+    - css/  _this folder is for stylesheets (optional)_
+    - images/  _this folder is for images (optional)_
+    - js/  _this folder is for javascript scripts (optional)_
 - templates/
     - index.html
 

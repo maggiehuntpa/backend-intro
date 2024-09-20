@@ -58,6 +58,7 @@ Every API call must include a ‘request body’ (the information sent when the 
 Write some python code which converts some currency!
 
 Steps:
+- Install the 'requests' library `pip3 install requests`
 - Sign up to use [RapidApi] (https://rapidapi.com/)
 - Read the documentation for using [this API](https://rapidapi.com/natkapral/api/currency-converter5/)
 - Ensure you note your API key = and remember, DO NOT share it online anywhere, or commit it to github! You can find it ocne you have signed up, [here](https://rapidapi.com/natkapral/api/currency-converter5/playground/).

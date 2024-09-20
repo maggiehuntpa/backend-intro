@@ -12,8 +12,8 @@ def method_show_index():
 def method_add():
 
     #retreive values from your form
-    num1 = request.form['num1']
-    num2 = request.form['num2']
+    num1 = int(request.form['num1'])
+    num2 = int(request.form['num2'])
     
     #insert your logic here
     value_to_use = num1 + num2

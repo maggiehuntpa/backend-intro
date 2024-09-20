@@ -2,7 +2,7 @@ import requests
 
 url = "https://currency-converter5.p.rapidapi.com/currency/convert"
 
-currency_1 = "GBP" #feel free to change these
+currency_1 = "MAD" #feel free to change these
 currency_2 = "USD"
 
 user_input = input(f'How many {currency_1} would you like to convert to {currency_2}?') #this will ask you what number you would like to convert and take it as input
